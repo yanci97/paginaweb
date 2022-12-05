@@ -1,0 +1,42 @@
+body{
+    background: white;
+}
+
+.menu ul{
+    /*quita los puntitos */
+    list-style: none;
+    /*que salga uno al lado de otro */
+    display:flex;
+    /*que salga a la izquierda*/
+    justify-content: right;
+}
+
+.menu li a{
+    /*quita el subrayado */
+    text-decoration: none;
+    /*tamaño de letra*/
+    font-size: 30px;
+    /*separa*/
+    padding: 20px;
+    /*color*/
+    color: white;
+    /*letra*/
+    font-family: sans-serif;
+    /*lo hace anchito*/
+    display:block;
+}
+
+header{
+    /*fondito*/
+    background: brown;
+}
+
+.menu li{
+    /*linias de separación*/
+    border-left: 2px solid #fff
+}
+
+.menu li:hover{
+    /*color al pasar el maus*/
+    background:rgba(0,0,0.3)
+}
